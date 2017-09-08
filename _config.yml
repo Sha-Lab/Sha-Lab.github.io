@@ -80,7 +80,7 @@ author:
   name             : "Shalab"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "The path to intelligence is learning."
-  location         : "3650 McClintock Ave,\nUniversity of Southern California \n90007 Los Angeles\n California, USA"
+  location         : "3650 McClintock Ave,<br>University of Southern California <br>\n90007 Los Angeles<br>\n California, USA"
   email            :
   uri              :
   bitbucket        :
