@@ -1,10 +1,10 @@
+---
+layout: page
+title: About
+permalink: /about/
+---
 
-# About
+About content goes here.
 
-This is a testing page.
-
-## Rather nice
-
-What about math equations ?
-
-$$x^3$$
+* A list item
+* Another list item
