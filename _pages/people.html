@@ -2,7 +2,15 @@
 layout: archive
 title: People
 permalink: /people/
-author_profile: true
+
+sidebar:
+  - title: "Title"
+    image: http://placehold.it/350x250
+    image_alt: "image"
+    text: "Some text here."
+  - title: "Another Title"
+    text: "More text here."
+
 ---
 
 <ul>
@@ -12,11 +20,3 @@ author_profile: true
     </li>
     {% endfor %}
 </ul>
-
-
-<div class="grid__wrapper">
-  {% for post in site.data.authors %}
-    {% include archive-single.html type="grid" %}
-  {% endfor %}
-</div>
-
