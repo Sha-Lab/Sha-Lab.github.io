@@ -4,8 +4,6 @@ main:
     url: /
   - title: "Blog"
     url: /blog/
-  - title: "Sample Collections"
-    url: /collection-archive/
   - title: "People"
     url: /people/
   - title: "About"
