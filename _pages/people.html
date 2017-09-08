@@ -1,16 +1,13 @@
 ---
-layout: single
+layout: archive
 title: People
 permalink: /people/
 author_profile: true
 ---
 
-It should be raw HTML, since we decided to use the default layout.
+<div class="grid__wrapper">
+  {% for author in site.authors %}
+    {{author.name}} <br />
+  {% endfor %}
+</div>
 
-<table border="1">
-    <tr>
-        <td>nice</td>
-        <td>nice</td>
-        <td>nice</td>
-    </tr>
-</table>
