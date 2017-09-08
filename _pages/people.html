@@ -12,3 +12,11 @@ author_profile: true
     </li>
     {% endfor %}
 </ul>
+
+
+<div class="grid__wrapper">
+  {% for post in site.data.authors %}
+    {% include archive-single.html type="grid" %}
+  {% endfor %}
+</div>
+
