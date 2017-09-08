@@ -5,9 +5,10 @@ permalink: /people/
 author_profile: true
 ---
 
-<div class="grid__wrapper">
-  {% for author in site.authors %}
-    {{author.name}} <br />
-  {% endfor %}
-</div>
-
+<ul>
+    {% for author in site.data.authors %}
+    <li>
+        {{ author.display_name }}
+    </li>
+    {% endfor %}
+</ul>
