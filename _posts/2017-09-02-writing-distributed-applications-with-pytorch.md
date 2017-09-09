@@ -4,9 +4,8 @@ author: Sebastien Arnold
 date: 2017-09-02
 ---
 
-\begin{abstract}
+**Abstract**
  In this short tutorial, we will be going over the distributed package of PyTorch. We'll see how to set up the distributed setting, use the different communication strategies, and go over part of the internals of the package.
-\end{abstract}
 
 # Setup 
 <!--

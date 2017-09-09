@@ -23,9 +23,8 @@ More formally, we can represent our dataset as a distribution $\chi$ from which 
 
 $$W_{opt} = \arg \min_{W} \mathbb{E}_{(x, y) \sim \chi}[\mathcal{L}(y, F(x; W))] $$
 
-\begin{note}
+**Note**
 In the above formulation we are not separating the dataset in train, validation, and test sets. However, you need to do it !\newline
-\end{note} 
 
 In this case, SGD will iteratively update the weights $W_t$ at timestep $t$ with $W_{t+1} = W_t - \alpha \cdot \nabla_{W_t} \mathcal{L}(y_i, F(x_i; W_t))$. Here, $\alpha$ is the learning rate and can be interpreted as the size of the step we are taking in the direction of the negative gradient. As we will see later there are algorithms that try to adaptively set the learning rate, but generally speaking it needs to be chosen by the human experimenter. \newline
 
@@ -53,9 +52,8 @@ Nesterov's accelerated gradient adds *momentum to the momentum* in an attempt to
 ### Adaptive Learning Rates
 Finding good learning rates can be an expensive process, and a skill often deemed closer to art or dark magic. The following techniques try to alleviate this problem by automatically setting the learning rate, sometimes on a per-parameter basis. The following descriptions are inspired by [Nervana's implementation](http://neon.nervanasys.com/index.html/optimizers.html).
 
-\begin{note}
+**Note**
 In the following formulas, $\epsilon$ is a constant to ensure numerical stability, and $\mu$ is the decay constant of the algorithm, how fast we decrease the learning rate as we converge.
-\end{note}
 
  Adagrad @adagrad | RMSProp @rmsprop
 -----------------------------------|------------------------------------------
