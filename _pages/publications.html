@@ -26,9 +26,9 @@ permalink: /publications/
     <!--<p class="page__meta"><i class="fa fa-calendar" aria-hidden="true"></i> {{pub.date}}</p>-->
     <!--{% endif %}-->
     <small style="font-size:10px;">
-    {% if pub.authors %}
-        {{ pub.author | array_to_sentence_string }}
-    {% endif %}
+    <!--{% if pub.authors %}-->
+        <!--{{ pub.author | array_to_sentence_string }}-->
+    <!--{% endif %}-->
     {% if pub.abstract %}
         <p class="archive__item-excerpt" itemprop="description">{{ pub.abstract | markdownify | strip_html | truncate: 200 }}</p>
     {% endif %}
