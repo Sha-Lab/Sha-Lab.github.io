@@ -22,10 +22,14 @@ permalink: /publications/
         <a href="{{ pub.url | absolute_url }}" rel="permalink">{{ pub.title }}</a>
       {% endif %}
     </h3>
-    {% if pub.date %}
-    <p class="page__meta"><i class="fa fa-calendar" aria-hidden="true"></i> {{pub.date}}</p>
+    <!--{% if pub.date %}-->
+    <!--<p class="page__meta"><i class="fa fa-calendar" aria-hidden="true"></i> {{pub.date}}</p>-->
+    <!--{% endif %}-->
+    <small>
+    {% if pub.abstract %}
+        <p class="archive__item-excerpt" itemprop="description">{{ pub.abstract | markdownify | strip_html | truncate: 200 }}</p>
     {% endif %}
-    {% if pub.abstract %}<p class="archive__item-excerpt" itemprop="description">{{ pub.abstract | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    </small><`2`>
   </article>
 </div>
 
