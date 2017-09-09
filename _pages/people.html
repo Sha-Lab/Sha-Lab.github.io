@@ -4,19 +4,19 @@ title: People
 permalink: /people/
 
 sidebar:
-  - title: "Title"
+  - title: "Shalab"
     image: http://placehold.it/350x250
-    image_alt: "image"
-    text: "Some text here."
-  - title: "Another Title"
-    text: "More text here."
+    image_alt: "Wish we had a better picture"
+    text: "We do AI."
+  - title: "Contact"
+    text: "Email: feisha@usc.edu <br /><br />3650 McClintock Ave,<br>University of Southern California <br>\t90007 Los Angeles<br>\t California, USA"
 
 ---
 
 <div class="grid__wrapper">
     {% for author in site.data.authors %}
         <div class="grid__item">
-          <div class="archive__item-teaser">
+          <div style="max-height: 240px" class="archive__item-teaser">
             <img src=
               {% if author.avatar contains "://" %}
                 "{{ author.avatar }}"
