@@ -69,7 +69,7 @@ The `init_processes` function is what interests us for now. It ensures that ever
 
 </tr><tr>
 <td align='center'>
-<img src='./figs/send_recv.png' width=100% /><br/>
+<img src='http://seba-1511.github.io/dist_tuto.pth/figs/send_recv.png' width=100% /><br/>
 <b>Send and Recv</b>
 </td>
 
@@ -140,24 +140,24 @@ Point-to-point communication is useful when we want a fine-grained control over 
 <tr>
 
 <td align='center'>
-<img src='./figs/scatter.png' width=100% /><br/>
+<img src='http://seba-1511.github.io/dist_tuto.pth/figs/scatter.png' width=100% /><br/>
 <b>Broadcast</b>
 </td>
 
 <td align='center'>
-<img src='./figs/all_gather.png' width=100% /><br/>
+<img src='http://seba-1511.github.io/dist_tuto.pth/figs/all_gather.png' width=100% /><br/>
 <b>AllGather</b>
 </td>
 
 </tr><tr>
 
 <td align='center'>
-<img src='./figs/reduce.png' width=100% /><br/>
+<img src='http://seba-1511.github.io/dist_tuto.pth/figs/reduce.png' width=100% /><br/>
 <b>Reduce</b>
 </td>
 
 <td align='center'>
-<img src='./figs/all_reduce.png' width=100% /><br/>
+<img src='http://seba-1511.github.io/dist_tuto.pth/figs/all_reduce.png' width=100% /><br/>
 <b>AllReduce</b>
 </td>
 
@@ -200,12 +200,12 @@ In addition to `dist.all_reduce(tensor, op, group)`, there are a total of 4 coll
 </tr><tr>
 
 <td align='center'>
-<img src='./figs/scatter.png' width=100% /><br/>
+<img src='http://seba-1511.github.io/dist_tuto.pth/figs/scatter.png' width=100% /><br/>
 <b>Scatter</b>
 </td>
 
 <td align='center'>
-<img src='./figs/gather.png' width=100% /><br/>
+<img src='http://seba-1511.github.io/dist_tuto.pth/figs/gather.png' width=100% /><br/>
 <b>Gather</b>
 </td>
 

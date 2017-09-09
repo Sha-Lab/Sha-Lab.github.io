@@ -112,7 +112,7 @@ In the synchronous setting, all replicas average all of their gradients at every
 2. We can work with fairly large models and large batch sizes even on memory-limited GPUs. 
 3. It's very simple to implement, and easy to debug and analyze.
 
-![](./figs/sync.gif)
+![](http://seba-1511.github.io/dist_blog/figs/sync.gif)
 
 This path to parallelism puts a strong emphasis on HPC, and the hardware that is in use. In fact, it will be challenging to obtain a decent speedup unless you are using industrial hardware. And even if you were using such a hardware, the choice of communication library, reduction algorithm, and other implementation details (e.g., data loading and transformation, model size, ...) will have a strong effect on the kind of performance gain you will encounter. \newline
 
@@ -155,7 +155,7 @@ The asynchronous setting is slightly more interesting from a mathematical perspe
 
 The advantage of adding asynchrony to our training is that replicas can work at their own pace, without waiting for others to finish computing their gradients. However, this is also where the trickiness resides; we have no guarantee that while one replica is computing the gradients with respect to a set of parameters, the global parameters will not have been updated by another one. If this happens, the global parameters will be updated with **stale** gradients - gradients computed with old versions of the parameters. 
 
-![](./figs/async.gif)
+![](http://seba-1511.github.io/dist_blog/figs/async.gif)
 
 In order to counter the effect of staleness, Zhang & al. @staleness-aware suggested to divide the gradients by their staleness. By limiting the impact of very stale gradients, they are able to obtain convergence almost identical to a synchronous system. In addition, they also proposed a generalization of synchronous and asynchronous SGD named *$n$-softsync*. In this case, updates to the shared global parameters are applied in batches of $n$. Note that $n = 1$ is our asynchronous training, while $n = R$ is synchronous. A corresponding alternative named *backup workers* was suggested by Chen & al. @backup-workers in the summer of 2016. \newline
 
@@ -167,7 +167,7 @@ Now that we have a decent understanding of the mechanics of distributed deep lea
 ### Parameter Server vs Tree-reductions
 The first decision to make is how to setup the architecture of the system. In this case, we mainly have two options: parameter server or tree-reductions. In the parameter server case, one machine is responsible for hodling and serving the global parameters to all replicas. As presented in @downpour, there can be several servers holding different parameters of the model to avoid contention, and they can themselves be hierarchically connected (eg, tree-shape in @rudra). One advantage of using parameter servers is that it's easy to implement different levels of asynchrony. \newline
 
-![](./figs/ps.png)
+![](http://seba-1511.github.io/dist_blog/figs/ps.png)
 
 However as discussed in @firecaffe, parameter servers tend to be slower and don't scale as well as tree-reduction architectures. By tree-reduction, I mean an infrastructure where collective operations are executed without a higher-level manager process. The message-passing interface (MPI) and its collective communication operations are typical examples. I particularly appreciate this setting given that it stays close to the math, and it enables a lot of engineering optimizations. For example, one could choose the reduction algorithm based on the network topology, include specialized device-to-device communication routines, and even truly take advantage of fast interconnect hardware. One caveat: I haven't (yet) come across a good asynchronous implementation based on tree-reductions.
 
