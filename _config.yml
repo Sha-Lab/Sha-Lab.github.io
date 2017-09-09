@@ -255,8 +255,8 @@ defaults:
       layout: single
 
 # Custom collection for publications
-collections:
-    pubs
+#collections:
+    #pubs
 
 defaults:
     # _pubs
