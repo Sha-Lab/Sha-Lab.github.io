@@ -27,7 +27,7 @@ permalink: /publications/
     <!--{% endif %}-->
     <small style="font-size:14px;">
     {% if pub.author %}
-        {{ pub.author }}
+        <span class="muted">{{ pub.author }}</span>
     {% endif %}
     {% if pub.abstract %}
         <p class="archive__item-excerpt" itemprop="description">{{ pub.abstract | markdownify | strip_html | truncate: 300 }}</p>
