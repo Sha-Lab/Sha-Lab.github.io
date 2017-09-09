@@ -13,10 +13,26 @@ sidebar:
 
 ---
 
-<ul>
+<div class="grid__wrapper">
     {% for author in site.data.authors %}
-    <li>
-        {{ author.name }}
-    </li>
+        <div class="grid__item">
+          <div class="archive__item-teaser">
+            <img src=
+              {% if author.avatar contains "://" %}
+                "{{ author.avatar }}"
+              {% else %}
+                "{{ author.avatar | absolute_url }}"
+              {% endif %}
+               alt="{{ author.name }}">
+          </div>
+            <h2 class="archive__item-title" itemprop="headline">
+              {% if author.name %}
+                <a href="{{ author.uri }}">{{ author.name }}</a> <a href="{{ author.uri | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+              {% else %}
+                <a href="{{ author.uri | absolute_url }}" rel="permalink">{{ author.name }}</a>
+              {% endif %}
+            </h2>
+            {% if author.bio %}<p class="archive__item-excerpt" itemprop="description">{{ author.bio | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+      </div>
     {% endfor %}
-</ul>
+</div>
