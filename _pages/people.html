@@ -9,7 +9,7 @@ sidebar:
     image_alt: "Wish we had a better picture"
     text: "We do AI."
   - title: "Contact"
-    text: "Email: feisha@usc.edu <br /><br />3650 McClintock Ave,<br>University of Southern California <br>\t90007 Los Angeles<br>\t California, USA"
+    text: "Email: feisha@usc.edu <br /><br />3650 McClintock Ave,<br>University of Southern California <br>\t90007 Los Angeles<br>\t California, USA <br /><br /> <a href="http://github.com/{{ site.author.github }}"><i class="fa fa-fw fa-github" aria-hidden="true"></i> GitHub</a>"
 
 ---
 
@@ -27,9 +27,9 @@ sidebar:
           </div>
             <h2 class="archive__item-title" itemprop="headline">
               {% if author.name %}
-                <a href="{{ author.uri }}">{{ author.name }}</a> <a href="{{ author.uri | absolute_url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+                <a href="{{ author.uri }}">{{ author.name }}</a> <a href="{{ author.uri | absolute_url }}" rel="permalink" target="_blank"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
               {% else %}
-                <a href="{{ author.uri | absolute_url }}" rel="permalink">{{ author.name }}</a>
+                <a href="{{ author.uri | absolute_url }}" rel="permalink" target="_blank">{{ author.name }}</a>
               {% endif %}
             </h2>
             {% if author.bio %}<p class="archive__item-excerpt" itemprop="description">{{ author.bio | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
