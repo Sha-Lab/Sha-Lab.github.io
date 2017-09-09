@@ -9,8 +9,6 @@ date: 2017-09-01
 # Introduction
 This blog post introduces the fundamentals of distributed deep learning and presents some real-world applications. With the democratisation of deep learning methods in the last decade, large - and small ! - companies have invested a lot of efforts into distributing the training procedure of neural networks. Their hope: drastically reduce the time to train large models on even larger datasets. Unfortunately, while every commercial product takes advantage of these techniques, it is still difficult for practitioners and researchers to use them in their everyday projects. This article aims to change that by providing a theoretical and practical overview. \newline
 
-Last year, as an intern at Nervana Systems I was able to expand their distributed effort. During this 1 year internship, I familiarised myself with quite a number of aspects of distributed deep learning and was able to work on topics ranging from implementing efficient GPU-GPU Allreduce routines @opti-mpich to replicating Deepind's Gorila @gorila. I found this topic so fascinating that I am now researching novel techniques for distributed optimization with Prof. [Chunming Wang](http://dornsife.usc.edu/labs/msl/faculty-and-staff/), and applying them to robotic control @comp-trpo-cem with Prof. [Francisco Valero-Cuevas](http://valerolab.org/about/). 
-
 # The Problem 
 <!--
     * Introduce formalism and SGD
