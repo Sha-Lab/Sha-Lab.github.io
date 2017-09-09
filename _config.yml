@@ -253,3 +253,25 @@ defaults:
       type: pages
     values:
       layout: single
+
+# Custom collection for publications
+collections:
+    pubs
+
+defaults:
+    # _pubs
+    - scope:
+        path: ""
+        type: pubs
+    - values:
+        title: ""
+        authors:
+            Fei Sha:
+                name: "Fei Sha"
+                email: "feisha@usc.edu"
+        link: ""
+        date: ""
+        tags:
+            - paper
+
+

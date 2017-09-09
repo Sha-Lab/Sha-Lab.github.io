@@ -16,5 +16,6 @@ tags:
     - vqa
     - vision
     - nlp
+    - paper
 
 ---
