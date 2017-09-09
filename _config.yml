@@ -257,8 +257,8 @@ defaults:
 # Custom collection for publications
 collections:
     - pubs:
-        author: ""
-        link: ""
-        date: ""
-        abstract: ""
-        tags: ["paper", "ai"]
+        - author: ""
+        - link: ""
+        - date: ""
+        - abstract: ""
+        - tags: ["paper", "ai"]
