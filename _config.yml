@@ -256,4 +256,4 @@ defaults:
 
 # Custom collection for publications
 collections:
-    - pubs:
+    - pubs
