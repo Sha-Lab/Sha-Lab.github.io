@@ -24,13 +24,15 @@ sidebar:
     {% for author in site.data.authors %}
         <div class="grid__item">
           <div style="max-height: 240px" class="archive__item-teaser">
-            <img src=
-              {% if author.avatar contains "://" %}
-                "{{ author.avatar }}"
-              {% else %}
-                "{{ author.avatar | absolute_url }}"
-              {% endif %}
-               alt="{{ author.name }}">
+              <a href="{{author.uri}}">
+                <img src=
+                  {% if author.avatar contains "://" %}
+                    "{{ author.avatar }}"
+                  {% else %}
+                    "{{ author.avatar | absolute_url }}"
+                  {% endif %}
+                   alt="{{ author.name }}">
+              </a>
           </div>
             <h2 class="archive__item-title" itemprop="headline">
               {% if author.name %}
