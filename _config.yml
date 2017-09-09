@@ -258,20 +258,20 @@ defaults:
 #collections:
     #pubs
 
-defaults:
-    # _pubs
-    - scope:
-        path: ""
-        type: pubs
-    - values:
-        title: ""
-        authors:
-            Fei Sha:
-                name: "Fei Sha"
-                email: "feisha@usc.edu"
-        link: ""
-        date: ""
-        tags:
-            - paper
+#defaults:
+    ## _pubs
+    #- scope:
+        #path: ""
+        #type: pubs
+    #- values:
+        #title: ""
+        #authors:
+            #Fei Sha:
+                #name: "Fei Sha"
+                #email: "feisha@usc.edu"
+        #link: ""
+        #date: ""
+        #tags:
+            #- paper
 
 
