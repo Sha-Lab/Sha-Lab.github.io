@@ -9,7 +9,7 @@ permalink: /publications/
 {% for pub in site.pubs %}
   {% capture year %}{{ pub.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    <h3 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
 
@@ -21,11 +21,11 @@ permalink: /publications/
       {% else %}
         <a href="{{ pub.url | absolute_url }}" rel="permalink">{{ pub.title }}</a>
       {% endif %}
-    </h4>
+    </h3>
     <!--{% if pub.date %}-->
     <!--<p class="page__meta"><i class="fa fa-calendar" aria-hidden="true"></i> {{pub.date}}</p>-->
     <!--{% endif %}-->
-    <small style="font-size:12px;">
+    <small style="font-size:14px;">
     <!--{% if pub.authors %}-->
         <!--{{ pub.author | array_to_sentence_string }}-->
     <!--{% endif %}-->
