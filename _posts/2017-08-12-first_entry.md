@@ -1,5 +1,6 @@
 ---
 title: "First Entry"
+layout: single
 categories:
   - Edge Case
 tags:
