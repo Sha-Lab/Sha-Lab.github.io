@@ -1,5 +1,5 @@
 ---
-title: "First Entry $\sum_0^\infty x = 0$"
+title: "First Entry, with math"
 layout: single
 categories:
   - Edge Case
@@ -11,7 +11,7 @@ tags:
   - markup
 ---
 
-Proof that math works everywhere: $\sum_0^\infty x = 0$.
+Proof that math works: $\sum_0^\infty x = 0$.
 
 Nested and mixed lists are an interesting beast. It's a corner case to make sure that
 
