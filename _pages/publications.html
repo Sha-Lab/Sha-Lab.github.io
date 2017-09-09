@@ -26,10 +26,15 @@ permalink: /publications/
     <!--<p class="page__meta"><i class="fa fa-calendar" aria-hidden="true"></i> {{pub.date}}</p>-->
     <!--{% endif %}-->
     <small>
+    {% if pub.authors %}
+        {% for author in pub.authors %}
+            author.name &nbsp;
+        {% endfor %}
+    {% endif %}
     {% if pub.abstract %}
         <p class="archive__item-excerpt" itemprop="description">{{ pub.abstract | markdownify | strip_html | truncate: 200 }}</p>
     {% endif %}
-    </small><`2`>
+    </small>
   </article>
 </div>
 
