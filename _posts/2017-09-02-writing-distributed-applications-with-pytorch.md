@@ -1,5 +1,5 @@
 ---
-title: Writing Distributed Applications wib PyTorch
+title: Writing Distributed Applications with PyTorch
 author: Sebastien Arnold
 date: 2017-09-02
 ---
