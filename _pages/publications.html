@@ -27,9 +27,7 @@ permalink: /publications/
     <!--{% endif %}-->
     <small>
     {% if pub.authors %}
-        {% for author in pub.authors %}
-            {{ author.name | array_to_sentence_string }} &nbsp;
-        {% endfor %}
+        {{ pub.author | array_to_sentence_string }}
     {% endif %}
     {% if pub.abstract %}
         <p class="archive__item-excerpt" itemprop="description">{{ pub.abstract | markdownify | strip_html | truncate: 200 }}</p>
