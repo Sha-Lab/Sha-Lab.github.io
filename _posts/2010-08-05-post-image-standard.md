@@ -1,6 +1,5 @@
 ---
 title: "Post: Image (Standard)"
-layout: splash
 categories:
   - Post Formats
 tags:
