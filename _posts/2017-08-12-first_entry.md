@@ -1,5 +1,5 @@
 ---
-title: "First Entry"
+title: "First Entry $\sum_0^\infty x = 0$"
 layout: single
 categories:
   - Edge Case
