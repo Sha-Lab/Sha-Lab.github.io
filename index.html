@@ -1,4 +1,54 @@
 ---
-layout: home
-author_profile: true
+title: "Welcome"
+layout: splash
+date: 2017-09-01T11:48:41-04:00
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: http://www-bcf.usc.edu/~feisha/img/personal/group_meeting.jpg
+  cta_label: "Start Learning !"
+  cta_url: "https://seba-1511.github.io/usc-jekyll/blog/"
+  #caption: "Undergraduates studying Deep Learning"
+excerpt: "The path to intelligence is through learning."
+intro: 
+  - excerpt: 'We are a research group focusing on statistical machine learning under the supervision of Fei Sha at USC.'
+
+feature_row:
+  - image_path: http://mindeyeconnection.com/clients/16297/images/slideshows/77465/slide2.png
+    alt: "Vision ang Language"
+    title: "Vision and Language"
+    excerpt: "Analysing images, chatbots, answering complex queries, summarizing videos, and understanding speech. [Learn more.](https://seba-1511.github.io/usc-jekyll/publications/)"
+  - image_path: http://www.belizehealthcare.com/wp-content/uploads/2016/10/internal-medicine.jpg
+    alt: "Life and Medical Sciences"
+    title: "Life and Medical Sciences"
+    excerpt: "With our collaborators at the Michelson Center for Transformative Medicine. [Learn more.](https://seba-1511.github.io/usc-jekyll/publications/)"
+  - image_path: http://www.communitywriting.org/wp-content/uploads/2016/04/Social_Network_Analysis_Visualization-1140x450.png
+    title: "Deep Learning and Kernel Methods"
+    excerpt: "Powerful statistical models and difficult optimization problems. [Learn more.](https://seba-1511.github.io/usc-jekyll/publications/)"
+
+feature_row2:
+  - image_path: http://vladlen.info/wp-content/uploads/FSO-1.jpg
+    alt: "Semantic Segmentation"
+    title: "LabelBank: Revisiting Global Perspectives for Semantic Segmentation"
+    excerpt: 'Semantic segmentation requires a detailed labeling of image pixels by object category. Information derived from local image patches is necessary to describe the detailed shape of individual objects. However, this information is ambiguous and can result in noisy labels. Global inference of image c...'
+    url: "https://arxiv.org/pdf/1703.09891"
+    btn_label: "Read Paper"
+    btn_class: "btn--inverse"
+
+feature_row3:
+  - image_path: http://visualqa.org/static/img/challenge.png
+    alt: "VQA"
+    title: "Being Negative but Constructively: Lessons Learnt from Creating Better Visual Question Answering Datasets"
+    excerpt: 'Visual question answering (QA) has attracted a lot of attention lately, seen essentially as a form of (visual) Turing test that artificial intelligence should strive to achieve. In this paper, we study a crucial component of this task: how can we design good datasets for the task? We focus on the...'
+    url: "https://arxiv.org/pdf/1704.07121.pdf"
+    btn_label: "Read Paper"
+    btn_class: "btn--inverse"
 ---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+{% include feature_row id="feature_row2" type="left" %}
+
+{% include feature_row id="feature_row3" type="right" %}

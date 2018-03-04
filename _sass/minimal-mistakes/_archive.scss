@@ -39,6 +39,7 @@
   font-family: $sans-serif-narrow;
   overflow: hidden;
   text-overflow: ellipsis;
+  color: $link-color;
 
   a + a {
     opacity: 0.5;

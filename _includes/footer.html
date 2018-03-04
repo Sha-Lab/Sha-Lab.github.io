@@ -1,3 +1,7 @@
+<div class="" style='float:right;'>
+   <img src="{{ '/assets/imgs/usc-logo.png' | absolute_url }}" style="max-height: 50px;" /> 
+</div>
+
 <div class="page__footer-follow">
   <ul class="social-icons">
     {% if site.data.ui-text[site.locale].follow_label %}
@@ -23,3 +27,18 @@
 </div>
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="http://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+
+<!--MathJax-->
+<script type="text/x-mathjax-config">
+    var delim = '\u0024';
+    MathJax.Hub.Config({
+    tex2jax: {inlineMath: [[delim, delim], ['\\(','\\)']]}
+    });
+</script>
+<script src='https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
+<script type="text/javascript">
+    var math = document.getElementsByClassName("math");
+    // MathJax.Hub.Queue(["Typeset", MathJax.Hub, math]);
+    MathJax.Hub.Queue([math, ]);
+</script>
