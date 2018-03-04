@@ -11,9 +11,9 @@ title                    : "Shalab"
 title_separator          : "-"
 name                     : "Shalab"
 description              : "The path to intelligence is learning"
-url                      : "https://seba-1511.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/usc-jekyll" # the subpath of your site, e.g. "/blog"
-repository               : "seba-1511/usc-jekyll" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+url                      : "https://sha-lab.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+repository               : "Sha-Lab/Sha-Lab.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
