@@ -45,6 +45,19 @@
   avatar: "https://ivyxiao44.github.io/wweb/ivy-1.jpg"
   twitter: "Nan"
 
+- Ivy Xiao:
+  name: "Ivy Jiyun Xiao"
+  uri: "https://ivyxiao44.github.io/wweb/"
+  bio: "PhD Student"
+  avatar: "https://ivyxiao44.github.io/wweb/ivy-1.jpg"
+  twitter: "Nan"
+
+  - Ivy Xiao:
+  name: "Ivy Jiyun Xiao"
+  uri: "https://ivyxiao44.github.io/wweb/"
+  bio: "PhD Student"
+  avatar: "https://ivyxiao44.github.io/wweb/ivy-1.jpg"
+  twitter: "Nan"
 
 
 
