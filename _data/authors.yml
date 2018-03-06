@@ -15,14 +15,6 @@
   avatar: "https://sites.google.com/site/chiangchaokai/_/rsrc/1468899104717/home/P_20140613_204443t.jpg"
   twitter: "Chao_Kai_Chiang"
 
-- Aaron Chan:
-  name: "Aaron Chan"
-  uri: "https://aarzchan.github.io"
-  email: "chanaaro@usc.edu"
-  bio: "PhD Student"
-  avatar: "https://aarzchan.github.io/images/aarchan_headshot.png"
-  twitter: "aarzchan"
-
 - Soravit Beer Changpinyo:
   name: "Soravit Beer Changpinyo"
   uri: "http://www-scf.usc.edu/~schangpi/"
@@ -30,6 +22,14 @@
   bio: "PhD Student"
   avatar: "https://pbs.twimg.com/profile_images/909562672965763073/yYMDML6r_400x400.jpg"
   twitter: "schangpi"
+
+- Aaron Chan:
+  name: "Aaron Chan"
+  uri: "https://aarzchan.github.io"
+  email: "chanaaro@usc.edu"
+  bio: "PhD Student"
+  avatar: "https://aarzchan.github.io/images/aarchan_headshot.png"
+  twitter: "aarzchan"
 
 - Shariq Iqbal:
   name: "Shariq Iqbal"
@@ -44,3 +44,7 @@
   bio: "PhD Student"
   avatar: "https://ivyxiao44.github.io/wweb/ivy-1.jpg"
   twitter: "Nan"
+
+
+
+
