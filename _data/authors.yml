@@ -15,13 +15,37 @@
   avatar: "http://www.math-info.univ-paris5.fr/~nadifmoh/melissa.jpg"
   twitter: ""
 
-- Aaron Chan:
-  name: "Aaron Chan"
-  uri: "https://aarzchan.github.io"
-  email: "chanaaro@usc.edu"
+- Zhiyun Lu:
+  name: "Zhiyun Lu"
+  uri: "https://sites.google.com/site/zhiyunluu/home"
+  email: "zhiyunlu@usc.edu"
   bio: "PhD Student"
-  avatar: "https://aarzchan.github.io/images/aarchan_headshot.png"
-  twitter: "aarzchan"
+  avatar: "http://www.teds.usc.edu/img/members/zhiyun.jpg"
+  twitter: "snaaail1"
+
+- Ke Zhang:
+  name: "Ke Zhang"
+  uri: "http://www-scf.usc.edu/~zhan355/"
+  email: "zhang.ke@usc.edu"
+  bio: "PhD Student"
+  avatar: "http://www.teds.usc.edu/img/members/zhan355.jpg"
+  twitter: ""
+
+- Hexiang Hu:
+  name: "Hexiang Hu"
+  uri: "http://hexianghu.com/"
+  email: "hexiang.frank.hu@gmail.com"
+  bio: "PhD Student"
+  avatar: "http://www.teds.usc.edu/img/members/hexiang.jpg"
+  twitter: "Hexiang_Hu"
+
+- Séb Arnold:
+  name: "Séb Arnold"
+  uri: "http://seba-1511.github.io/"
+  email: "arnolds@usc.edu"
+  bio: "PhD Student"
+  avatar: "https://pbs.twimg.com/profile_images/915840040067932160/fGxNP4b-_400x400.jpg"
+  twitter: "seba1511"
 
 - Aaron Chan:
   name: "Aaron Chan"
@@ -31,37 +55,21 @@
   avatar: "https://aarzchan.github.io/images/aarchan_headshot.png"
   twitter: "aarzchan"
 
-- Aaron Chan:
-  name: "Aaron Chan"
-  uri: "https://aarzchan.github.io"
+- Liyu Chen:
+  name: "Liyu Chen"
+  uri: "https://www.linkedin.com/in/liyu-chen-180254a3/"
   email: "chanaaro@usc.edu"
   bio: "PhD Student"
-  avatar: "https://aarzchan.github.io/images/aarchan_headshot.png"
-  twitter: "aarzchan"
+  avatar: "http://www.teds.usc.edu/img/members/liyu.jpg"
+  twitter: ""
 
-- Aaron Chan:
-  name: "Aaron Chan"
-  uri: "https://aarzchan.github.io"
-  email: "chanaaro@usc.edu"
+- Chin-Cheng (Jeremy) Hsu:
+  name: "Chin-Cheng (Jeremy) Hsu"
+  uri: "http://jeremycchsu.github.io/"
+  email: "chincheh@usc.edu"
   bio: "PhD Student"
-  avatar: "https://aarzchan.github.io/images/aarchan_headshot.png"
-  twitter: "aarzchan"
-
-- Aaron Chan:
-  name: "Aaron Chan"
-  uri: "https://aarzchan.github.io"
-  email: "chanaaro@usc.edu"
-  bio: "PhD Student"
-  avatar: "https://aarzchan.github.io/images/aarchan_headshot.png"
-  twitter: "aarzchan"
-
-- Aaron Chan:
-  name: "Aaron Chan"
-  uri: "https://aarzchan.github.io"
-  email: "chanaaro@usc.edu"
-  bio: "PhD Student"
-  avatar: "https://aarzchan.github.io/images/aarchan_headshot.png"
-  twitter: "aarzchan"
+  avatar: "http://www.teds.usc.edu/img/members/chincheng.jpg"
+  twitter: "JeremyCCHsu"
 
 - Shariq Iqbal:
   name: "Shariq Iqbal"
@@ -70,12 +78,43 @@
   avatar: "https://shariqiqbal2810.github.io/images/profile.png"
   twitter: "shariqbal"
 
-- Ivy Xiao:
+- Yiming Yan:
+  name: "Yiming Yan"
+  uri: "https://www.linkedin.com/in/yiming-yan-428397138/"
+  bio: "PhD Student"
+  avatar: "http://www.teds.usc.edu/img/members/yiming.jpg"
+  twitter: ""
+
+- Yury Zemlyanskiy:
+  name: "Yury Zemlyanskiy"
+  uri: "https://www.linkedin.com/in/yury-zemlyanskiy/"
+  bio: "PhD Student"
+  avatar: "http://www.teds.usc.edu/img/members/yura.jpg"
+  twitter: ""
+
+- Bowen Zhang:
+  name: "Bowen Zhang"
+  uri: "https://zbwglory.github.io/"
+  bio: "PhD Student"
+  avatar: "http://www.teds.usc.edu/img/members/bowen.jpg"
+  twitter: "bwzhang_usc"
+
+- Ivy Jiyun Xiao:
   name: "Ivy Jiyun Xiao"
   uri: "https://ivyxiao44.github.io/wweb/"
   bio: "PhD Student"
   avatar: "https://ivyxiao44.github.io/wweb/ivy-1.jpg"
   twitter: ""
+
+- Michiel de Jong:
+  name: "Michiel de Jong"
+  uri: "https://www.linkedin.com/in/michiel-de-jong-81ab1314"
+  bio: "PhD Student"
+  avatar: "http://www.teds.usc.edu/img/members/michiel.jpg"
+  twitter: "MsdJ29"
+
+
+
 
 
 - Chao-Kai Chiang:
