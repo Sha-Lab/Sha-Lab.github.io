@@ -8,9 +8,5 @@ main:
     url: /publications/
   - title: "People"
     url: /people/
-  - title: "Blog"
-    url: /blog/
-  - title: "Lab Events"
-    url: /lab_events/
 
 
