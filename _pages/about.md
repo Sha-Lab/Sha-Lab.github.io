@@ -1,7 +1,7 @@
 ---
 layout: single
-title: About
-permalink: /about/
+title: Research
+permalink: /research/
 ---
 
 We are primarily interested in fundamental research questions in statistical machine learning. Our goal is to invent new statistical models, inference methods and computational algorithms.
