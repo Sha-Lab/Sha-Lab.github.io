@@ -79,7 +79,7 @@ analytics:
 author:
   name             : "ShaLab"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "The path to intelligence is learning."
+  bio              : #"The path to intelligence is learning."
   location         : "Michelson Hall <br> 1002 Childs Way <br> University of Southern California <br> Los Angeles, CA 90089"
   email            :
   uri              :
