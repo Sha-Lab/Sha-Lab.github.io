@@ -1,6 +1,6 @@
 ---
 layout: single
-title: ML and RL
+title: ML/RL
 permalink: /research/ml_rl/
 ---
 
