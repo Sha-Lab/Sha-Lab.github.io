@@ -1,10 +1,8 @@
 ---
 layout: single
 title: Research
-permalink: /research/
+permalink: /research/vision/
 ---
-
-<a href="/research/vision/">Vision</a>
 
 We are primarily interested in fundamental research questions in statistical machine learning. Our goal is to invent new statistical models, inference methods and computational algorithms.
 
