@@ -256,5 +256,5 @@ defaults:
 collections:
     - pubs
       sort_by: date
-      sort_order: reverse
+      sort_order: forward
 
