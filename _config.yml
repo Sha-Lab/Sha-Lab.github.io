@@ -255,6 +255,4 @@ defaults:
 # Custom collection for publications
 collections:
     - pubs
-      sort_by: date
-      sort_order: forward
 
