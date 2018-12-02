@@ -7,7 +7,6 @@ permalink: /publications/
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
 
-<!--{% for pub in site.pubs | sort: 'date' %}-->
 {% assign sorted_pubs = (site.pubs | sort: 'date') | reverse %}
 {% for pub in sorted_pubs %}
   {% capture year %}{{ pub.date | date: '%Y' }}{% endcapture %}
