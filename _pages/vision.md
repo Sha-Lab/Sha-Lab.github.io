@@ -4,4 +4,7 @@ title: Research - Vision
 permalink: /research/vision/
 ---
 
-Vision and language, video summarization, image captioning, image segmentation, object recognition.
+1. Vision and Language
+2. Video Summarization
+3. Image Segmentation
+4. Object Recognition
