@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Research in Vision
+title: Research - Vision
 permalink: /research/vision/
 ---
 

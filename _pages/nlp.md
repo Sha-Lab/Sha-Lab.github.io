@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Research in NLP
+title: Research - NLP
 permalink: /research/nlp/
 ---
 

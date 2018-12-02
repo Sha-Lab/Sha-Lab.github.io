@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Research in ML/RL
+title: Research - ML/RL
 permalink: /research/ml_rl/
 ---
 
