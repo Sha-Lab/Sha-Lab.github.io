@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: archive
 title: Publications
 permalink: /publications/
 ---
@@ -11,6 +11,7 @@ permalink: /publications/
   {% if year != written_year %}
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
+    {% include archive-single.html %}
   {% endif %}
 
 <div class="list__item">
