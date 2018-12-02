@@ -2,11 +2,6 @@
 layout: splash
 title: Research - Vision
 permalink: /research/vision/
----
-
-1. Vision and Language
-
-	
 
 feature_row2:
   - image_path: http://hexianghu.com/images/projects/2018/hexiang2018synpo.png
@@ -15,6 +10,14 @@ feature_row2:
     url: "https://sites.google.com/view/nips2018-synpo"
     btn_label: "Project Page"
     btn_class: "btn--inverse"
+
+---
+
+1. Vision and Language
+
+	
+
+
 
 2. Video Summarization
 3. Image Segmentation
