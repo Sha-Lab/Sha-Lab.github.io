@@ -2,13 +2,12 @@
 layout: single
 title: Publications1
 permalink: /publications/
+sort_order: reverse
 ---
 
 {% include base_path %}
 {% capture written_year %}'None'{% endcapture %}
-{% assign all_pubs = site.pubs | sort: 'date' %}
-<!--{% for pub in site.pubs | sort: 'date' %}-->
-{% for pub in {all_pubs | reverse} %}
+{% for pub in site.pubs | sort: 'date' %}
   {% capture year %}{{ pub.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
