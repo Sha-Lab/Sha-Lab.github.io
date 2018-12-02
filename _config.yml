@@ -255,4 +255,4 @@ defaults:
 # Custom collection for publications
 collections:
     - pubs
-      sort_order: reverse
+      sort_order: forward
