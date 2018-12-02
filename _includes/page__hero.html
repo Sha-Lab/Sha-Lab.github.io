@@ -48,7 +48,7 @@
         {% if paginator and site.paginate_show_page_num %}
           {{ " " }}{% unless paginator.page == 1 %} {{ site.data.ui-text[site.locale].page | default: "Page" }} {{ paginator.page }}{% endunless %}
         {% else %}
-          {{ page.title | default: " " | markdownify | remove: "<p>" | remove: "</p>" }}
+          {{ " " | default: " " | markdownify | remove: "<p>" | remove: "</p>" }}
         {% endif %}
       </h1>
 
