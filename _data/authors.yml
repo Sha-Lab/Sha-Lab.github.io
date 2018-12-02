@@ -4,7 +4,7 @@
   uri: "http://www-bcf.usc.edu/~feisha/"
   email: "feisha@usc.edu"
   bio: "Associate Professor"
-  avatar: "https://viterbi.usc.edu/directory/images/e15970f34f52ae06469255f2ad2b98ca.jpg"
+  avatar: "/assets/imgs/fei_sha.jpg"
   twitter: "feishaAI"
 
 - Melissa Ailem:
@@ -12,7 +12,7 @@
   uri: "https://melailem.github.io/"
   email: "ailem@usc.edu"
   bio: "Postdoc"
-  avatar: "http://www.math-info.univ-paris5.fr/~nadifmoh/melissa.jpg"
+  avatar: "/assets/imgs/melissa_ailem.jpg"
   twitter: ""
 
 - Zhiyun Lu:
@@ -20,7 +20,7 @@
   uri: "https://sites.google.com/site/zhiyunluu/home"
   email: "zhiyunlu@usc.edu"
   bio: "PhD Student"
-  avatar: "http://www.teds.usc.edu/img/members/zhiyun.jpg"
+  avatar: "/assets/imgs/zhiyun_lu.jpg"
   twitter: "snaaail1"
 
 - Ke Zhang:
@@ -28,15 +28,15 @@
   uri: "http://www-scf.usc.edu/~zhan355/"
   email: "zhang.ke@usc.edu"
   bio: "PhD Student"
-  avatar: "http://www.teds.usc.edu/img/members/zhan355.jpg"
+  avatar: "/assets/imgs/ke_zhang.jpg"
   twitter: ""
 
-- Hexiang Hu:
-  name: "Hexiang Hu"
+- Hexiang (Frank) Hu:
+  name: "Hexiang (Frank) Hu"
   uri: "http://hexianghu.com/"
   email: "hexiang.frank.hu@gmail.com"
   bio: "PhD Student"
-  avatar: "http://www.teds.usc.edu/img/members/hexiang.jpg"
+  avatar: "/assets/imgs/hexiang_frank_hu.jpg"
   twitter: "Hexiang_Hu"
 
 - Séb Arnold:
@@ -44,7 +44,7 @@
   uri: "http://seba-1511.github.io/"
   email: "arnolds@usc.edu"
   bio: "PhD Student"
-  avatar: "https://pbs.twimg.com/profile_images/915840040067932160/fGxNP4b-_400x400.jpg"
+  avatar: "/assets/imgs/seb_arnold.jpg"
   twitter: "seba1511"
 
 - Aaron Chan:
@@ -52,7 +52,7 @@
   uri: "https://aarzchan.github.io"
   email: "chanaaro@usc.edu"
   bio: "PhD Student"
-  avatar: "https://aarzchan.github.io/images/aarchan_headshot.png"
+  avatar: "/assets/imgs/aaron_chan.png"
   twitter: "aarzchan"
 
 - Liyu Chen:
@@ -60,7 +60,7 @@
   uri: "https://www.linkedin.com/in/liyu-chen-180254a3/"
   email: "chanaaro@usc.edu"
   bio: "PhD Student"
-  avatar: "http://www.teds.usc.edu/img/members/liyu.jpg"
+  avatar: "/assets/imgs/liyu_chen.jpg"
   twitter: ""
 
 - Chin-Cheng (Jeremy) Hsu:
@@ -68,49 +68,49 @@
   uri: "http://jeremycchsu.github.io/"
   email: "chincheh@usc.edu"
   bio: "PhD Student"
-  avatar: "http://www.teds.usc.edu/img/members/chincheng.jpg"
+  avatar: "/assets/imgs/chincheng_jeremy_hsu.jpg"
   twitter: "JeremyCCHsu"
 
 - Shariq Iqbal:
   name: "Shariq Iqbal"
   uri: "https://shariqiqbal2810.github.io/"
   bio: "PhD Student"
-  avatar: "https://shariqiqbal2810.github.io/images/profile.png"
+  avatar: "/assets/imgs/shariq_iqbal.jpg"
   twitter: "shariqbal"
 
 - Ivy Jiyun Xiao:
   name: "Ivy Jiyun Xiao"
   uri: "https://ivyxiao44.github.io/wweb/"
   bio: "PhD Student"
-  avatar: "https://ivyxiao44.github.io/wweb/ivy-1.jpg"
+  avatar: "/assets/imgs/ivy_jiyun_xiao.jpg"
   twitter: ""
 
 - Yiming Yan:
   name: "Yiming Yan"
   uri: "https://www.linkedin.com/in/yiming-yan-428397138/"
   bio: "PhD Student"
-  avatar: "http://www.teds.usc.edu/img/members/yiming.jpg"
+  avatar: "/assets/imgs/yiming_yan.jpg"
   twitter: ""
 
 - Yury Zemlyanskiy:
   name: "Yury Zemlyanskiy"
   uri: "https://www.linkedin.com/in/yury-zemlyanskiy/"
   bio: "PhD Student"
-  avatar: "http://www.teds.usc.edu/img/members/yura.jpg"
+  avatar: "/assets/imgs/yury_zemlyanskiy.jpg"
   twitter: ""
 
 - Bowen Zhang:
   name: "Bowen Zhang"
   uri: "https://zbwglory.github.io/"
   bio: "PhD Student"
-  avatar: "http://www.teds.usc.edu/img/members/bowen.jpg"
+  avatar: "/assets/imgs/bowen_zhang.jpg"
   twitter: "bwzhang_usc"
 
 - Michiel de Jong:
   name: "Michiel de Jong"
   uri: "https://www.linkedin.com/in/michiel-de-jong-81ab1314"
   bio: "PhD Student"
-  avatar: "http://www.teds.usc.edu/img/members/michiel.jpg"
+  avatar: "/assets/imgs/michiel_de_jong.jpg"
   twitter: "MsdJ29"
 
 
@@ -121,15 +121,15 @@
   uri: "https://sites.google.com/site/chiangchaokai/"
   email: "chaokai@gmail.com"
   bio: "Postdoc"
-  avatar: "https://sites.google.com/site/chiangchaokai/_/rsrc/1468899104717/home/P_20140613_204443t.jpg"
+  avatar: "/assets/imgs/chaokai_chiang.jpg"
   twitter: "Chao_Kai_Chiang"
 
-- Soravit Beer Changpinyo:
-  name: "Soravit Beer Changpinyo"
+- Soravit (Beer) Changpinyo:
+  name: "Soravit (Beer) Changpinyo"
   uri: "http://www-scf.usc.edu/~schangpi/"
   email: "schangpi@usc.edu"
   bio: "PhD Student"
-  avatar: "https://pbs.twimg.com/profile_images/909562672965763073/yYMDML6r_400x400.jpg"
+  avatar: "/assets/imgs/soravit_beer_changpinyo.jpg"
   twitter: "schangpi"
 
 
