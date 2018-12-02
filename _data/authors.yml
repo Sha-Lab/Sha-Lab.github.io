@@ -4,7 +4,7 @@
   uri: "http://www-bcf.usc.edu/~feisha/"
   email: "feisha@usc.edu"
   bio: "Associate Professor"
-  avatar: "/assets/imgs/fei_sha.jpg"
+  avatar: "/assets/imgs/people/fei_sha.jpg"
   twitter: "feishaAI"
 
 - Melissa Ailem:
@@ -12,7 +12,7 @@
   uri: "https://melailem.github.io/"
   email: "ailem@usc.edu"
   bio: "Postdoc"
-  avatar: "/assets/imgs/melissa_ailem.jpg"
+  avatar: "/assets/imgs/people/melissa_ailem.jpg"
   twitter: ""
 
 - Zhiyun Lu:
@@ -20,7 +20,7 @@
   uri: "https://sites.google.com/site/zhiyunluu/home"
   email: "zhiyunlu@usc.edu"
   bio: "PhD Student"
-  avatar: "/assets/imgs/zhiyun_lu.jpg"
+  avatar: "/assets/imgs/people/zhiyun_lu.jpg"
   twitter: "snaaail1"
 
 - Ke Zhang:
@@ -28,7 +28,7 @@
   uri: "http://www-scf.usc.edu/~zhan355/"
   email: "zhang.ke@usc.edu"
   bio: "PhD Student"
-  avatar: "/assets/imgs/ke_zhang.jpg"
+  avatar: "/assets/imgs/people/ke_zhang.jpg"
   twitter: ""
 
 - Hexiang (Frank) Hu:
@@ -36,7 +36,7 @@
   uri: "http://hexianghu.com/"
   email: "hexiang.frank.hu@gmail.com"
   bio: "PhD Student"
-  avatar: "/assets/imgs/hexiang_frank_hu.jpg"
+  avatar: "/assets/imgs/people/hexiang_frank_hu.jpg"
   twitter: "Hexiang_Hu"
 
 - Séb Arnold:
@@ -44,7 +44,7 @@
   uri: "http://seba-1511.github.io/"
   email: "arnolds@usc.edu"
   bio: "PhD Student"
-  avatar: "/assets/imgs/seb_arnold.jpg"
+  avatar: "/assets/imgs/people/seb_arnold.jpg"
   twitter: "seba1511"
 
 - Aaron Chan:
@@ -52,7 +52,7 @@
   uri: "https://aarzchan.github.io"
   email: "chanaaro@usc.edu"
   bio: "PhD Student"
-  avatar: "/assets/imgs/aaron_chan.png"
+  avatar: "/assets/imgs/people/aaron_chan.png"
   twitter: "aarzchan"
 
 - Liyu Chen:
@@ -60,7 +60,7 @@
   uri: "https://www.linkedin.com/in/liyu-chen-180254a3/"
   email: "chanaaro@usc.edu"
   bio: "PhD Student"
-  avatar: "/assets/imgs/liyu_chen.jpg"
+  avatar: "/assets/imgs/people/liyu_chen.jpg"
   twitter: ""
 
 - Chin-Cheng (Jeremy) Hsu:
@@ -68,49 +68,49 @@
   uri: "http://jeremycchsu.github.io/"
   email: "chincheh@usc.edu"
   bio: "PhD Student"
-  avatar: "/assets/imgs/chincheng_jeremy_hsu.jpg"
+  avatar: "/assets/imgs/people/chincheng_jeremy_hsu.jpg"
   twitter: "JeremyCCHsu"
 
 - Shariq Iqbal:
   name: "Shariq Iqbal"
   uri: "https://shariqiqbal2810.github.io/"
   bio: "PhD Student"
-  avatar: "/assets/imgs/shariq_iqbal.jpg"
+  avatar: "/assets/imgs/people/shariq_iqbal.jpg"
   twitter: "shariqbal"
 
 - Ivy Jiyun Xiao:
   name: "Ivy Jiyun Xiao"
   uri: "https://ivyxiao44.github.io/wweb/"
   bio: "PhD Student"
-  avatar: "/assets/imgs/ivy_jiyun_xiao.jpg"
+  avatar: "/assets/imgs/people/ivy_jiyun_xiao.jpg"
   twitter: ""
 
 - Yiming Yan:
   name: "Yiming Yan"
   uri: "https://www.linkedin.com/in/yiming-yan-428397138/"
   bio: "PhD Student"
-  avatar: "/assets/imgs/yiming_yan.jpg"
+  avatar: "/assets/imgs/people/yiming_yan.jpg"
   twitter: ""
 
 - Yury Zemlyanskiy:
   name: "Yury Zemlyanskiy"
   uri: "https://www.linkedin.com/in/yury-zemlyanskiy/"
   bio: "PhD Student"
-  avatar: "/assets/imgs/yury_zemlyanskiy.jpg"
+  avatar: "/assets/imgs/people/yury_zemlyanskiy.jpg"
   twitter: ""
 
 - Bowen Zhang:
   name: "Bowen Zhang"
   uri: "https://zbwglory.github.io/"
   bio: "PhD Student"
-  avatar: "/assets/imgs/bowen_zhang.jpg"
+  avatar: "/assets/imgs/people/bowen_zhang.jpg"
   twitter: "bwzhang_usc"
 
 - Michiel de Jong:
   name: "Michiel de Jong"
   uri: "https://www.linkedin.com/in/michiel-de-jong-81ab1314"
   bio: "PhD Student"
-  avatar: "/assets/imgs/michiel_de_jong.jpg"
+  avatar: "/assets/imgs/people/michiel_de_jong.jpg"
   twitter: "MsdJ29"
 
 
@@ -121,7 +121,7 @@
   uri: "https://sites.google.com/site/chiangchaokai/"
   email: "chaokai@gmail.com"
   bio: "Postdoc"
-  avatar: "/assets/imgs/chaokai_chiang.jpg"
+  avatar: "/assets/imgs/people/chaokai_chiang.jpg"
   twitter: "Chao_Kai_Chiang"
 
 - Soravit (Beer) Changpinyo:
@@ -129,7 +129,7 @@
   uri: "http://www-scf.usc.edu/~schangpi/"
   email: "schangpi@usc.edu"
   bio: "PhD Student"
-  avatar: "/assets/imgs/soravit_beer_changpinyo.jpg"
+  avatar: "/assets/imgs/people/soravit_beer_changpinyo.jpg"
   twitter: "schangpi"
 
 
