@@ -8,7 +8,7 @@ permalink: /publications/
 {% capture written_year %}'None'{% endcapture %}
 {% assign all_pubs = site.pubs | sort: 'date' %}
 <!--{% for pub in site.pubs | sort: 'date' %}-->
-{% for pub in all_pubs | reverse %}
+{% for pub in {{all_pubs | reverse}} %}
   {% capture year %}{{ pub.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
     <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
