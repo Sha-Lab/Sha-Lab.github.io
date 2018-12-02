@@ -1,10 +1,12 @@
 ---
-layout: single
+layout: splash
 title: Research - Vision
 permalink: /research/vision/
 ---
 
 1. Vision and Language
+
+	
 
 feature_row2:
   - image_path: http://hexianghu.com/images/projects/2018/hexiang2018synpo.png
