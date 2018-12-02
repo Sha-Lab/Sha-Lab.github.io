@@ -8,6 +8,13 @@ layout: default
   {% include page__hero_video.html %}
 {% endif %}
 
+{% if page.feature_row2.actions %}
+  <p>
+  {% for action in page.feature_row2.actions %}
+    <a href="{{ action.url }}" class="btn btn--light-outline btn--large">{{ action.label }}</a>
+  {% endfor %}
+{% endif %}
+
 <div id="main" role="main">
   <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %} 
