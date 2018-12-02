@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Vision
+title: Research in Vision
 permalink: /research/vision/
 ---
 
-asdf
+Vision and language, video summarization, image captioning, image segmentation, object recognition.

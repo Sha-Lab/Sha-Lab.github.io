@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Natural Language Processing
+title: Research in Natural Language Processing
 permalink: /research/nlp/
 ---
 
-asdf
+Language modeling, dialogue generation, sequence tagging.

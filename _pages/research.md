@@ -4,11 +4,14 @@ title: Research
 permalink: /research/
 ---
 
-<a href="/research/ml_rl/">ML/RL</a>
+<b> <a href="/research/ml_rl/">ML/RL</a> </b>
 
-<a href="/research/vision/">Vision</a>
 
-<a href="/research/nlp/">Natural Language Processing</a>
+
+<b> <a href="/research/vision/">Vision</a> </b>
+
+
+<b> <a href="/research/nlp/">Natural Language Processing</a> </b>
 
 
 
