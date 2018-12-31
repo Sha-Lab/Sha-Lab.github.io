@@ -1,11 +1,10 @@
 ---
-layout: single
+layout: splash
 title: Research
 permalink: /research/
 ---
 
 <b> <a href="/research/ml_rl/">Statistical Machine Learning / Reinforcement Learning (ML/RL) </a> </b>
-
 
 
 <b> <a href="/research/vision/">Vision</a> </b>
