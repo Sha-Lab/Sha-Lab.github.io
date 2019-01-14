@@ -13,9 +13,9 @@ sidebar:
     text:
   - title: "Publication Year"
     text: "
-            2018 <br>
-            2017 <br>
-            2016 <br>
+            <b> <a href="/publications/">2018</a> </b> <br>
+            <b> <a href="/publications/">2017</a> </b> <br>
+            <b> <a href="/publications/">2016</a> </b> <br>
           "
 
 ---
@@ -27,7 +27,7 @@ sidebar:
 {% for pub in sorted_pubs %}
   {% capture year %}{{ pub.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ <a href="#">year</a> }}</h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
 
