@@ -81,13 +81,6 @@
   avatar: "/assets/imgs/people/zhiyun_lu.jpg"
   twitter: "snaaail1"
 
-- Ivy Jiyun Xiao:
-  name: "Ivy Jiyun Xiao"
-  uri: "https://ivyxiao44.github.io/wweb/"
-  bio: "PhD Student"
-  avatar: "/assets/imgs/people/ivy_jiyun_xiao.jpg"
-  twitter: ""
-
 - Yiming Yan:
   name: "Yiming Yan"
   uri: "https://www.linkedin.com/in/yiming-yan-428397138/"
@@ -137,5 +130,3 @@
   bio: "PhD Student"
   avatar: "/assets/imgs/people/soravit_beer_changpinyo.jpg"
   twitter: "schangpi"
-
-
