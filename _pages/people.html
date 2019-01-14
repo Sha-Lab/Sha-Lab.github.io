@@ -4,21 +4,47 @@ title: People
 permalink: /people/
 
 sidebar:
-  - title: 
+  - title:
     image:
     image_alt:
-    text: 
+    text:
   - title: "Contact"
     text: "
            <a href=\"http://github.com/Sha-lab\" style=\"text-decoration:none;\"><i class=\"fa fa-fw fa-envelope\" aria-hidden=\"true\"></i> feisha@usc.edu</a>
            <br /><br />
-           Michelson Hall, Room 407 <br> 1002 Childs Way <br> University of Southern California <br> Los Angeles, CA 90089 
+           Michelson Hall, Room 407 <br> 1002 Childs Way <br> University of Southern California <br> Los Angeles, CA 90089
            <br /><br />
            <a href=\"http://github.com/Sha-lab\" style=\"text-decoration:none;\"><i class=\"fa fa-fw fa-github\" aria-hidden=\"true\"></i> GitHub</a>
            <a href=\"https://twitter.com/ShaLabUSC\" style=\"text-decoration:none;\"><i class=\"fa fa-fw fa-twitter-square\" aria-hidden=\"true\"></i> Twitter</a>
           "
 
 ---
+
+<div class="grid__wrapper">
+    {% for author in site.data.authors %}
+        <div class="grid__item">
+          <div style="max-height: 240px" class="archive__item-teaser">
+              <a href="{{author.uri}}">
+                <img src=
+                  {% if author.avatar contains "://" %}
+                    "{{ author.avatar }}"
+                  {% else %}
+                    "{{ author.avatar | absolute_url }}"
+                  {% endif %}
+                   alt="{{ author.name }}">
+              </a>
+          </div>
+            <h2 class="archive__item-title" itemprop="headline">
+              {% if author.name %}
+                <a href="{{ author.uri }}">{{ author.name }}</a> <a href="{{ author.uri | absolute_url }}" rel="permalink" target="_blank"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+              {% else %}
+                <a href="{{ author.uri | absolute_url }}" rel="permalink" target="_blank">{{ author.name }}</a>
+              {% endif %}
+            </h2>
+            {% if author.bio %}<p class="archive__item-excerpt" itemprop="description">{{ author.bio | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+      </div>
+    {% endfor %}
+</div>
 
 <div class="grid__wrapper">
     {% for author in site.data.authors %}
