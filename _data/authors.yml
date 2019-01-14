@@ -50,16 +50,16 @@
   avatar: "/assets/imgs/people/michiel_de_jong.jpg"
   twitter: "MsdJ29"
 
-- Chin-Cheng (Jeremy) Hsu:
-  name: "Chin-Cheng (Jeremy) Hsu"
+- Chin-Cheng Hsu:
+  name: "Chin-Cheng Hsu"
   uri: "http://jeremycchsu.github.io/"
   email: "chincheh@usc.edu"
   bio: "PhD Student"
   avatar: "/assets/imgs/people/chincheng_jeremy_hsu.jpg"
   twitter: "JeremyCCHsu"
 
-- Hexiang (Frank) Hu:
-  name: "Hexiang (Frank) Hu"
+- Hexiang Hu:
+  name: "Hexiang Hu"
   uri: "http://hexianghu.com/"
   email: "hexiang.frank.hu@gmail.com"
   bio: "PhD Student"
@@ -109,24 +109,3 @@
   bio: "PhD Student"
   avatar: "/assets/imgs/people/ke_zhang.jpg"
   twitter: ""
-
-
-
-
-
-
-- Chao-Kai Chiang:
-  name: "Chao-Kai Chiang"
-  uri: "https://sites.google.com/site/chiangchaokai/"
-  email: "chaokai@gmail.com"
-  bio: "Postdoc"
-  avatar: "/assets/imgs/people/chaokai_chiang.jpg"
-  twitter: "Chao_Kai_Chiang"
-
-- Soravit (Beer) Changpinyo:
-  name: "Soravit (Beer) Changpinyo"
-  uri: "http://www-scf.usc.edu/~schangpi/"
-  email: "schangpi@usc.edu"
-  bio: "PhD Student"
-  avatar: "/assets/imgs/people/soravit_beer_changpinyo.jpg"
-  twitter: "schangpi"
