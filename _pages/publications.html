@@ -27,8 +27,8 @@ sidebar:
 {% for pub in sorted_pubs %}
   {% capture year %}{{ pub.date | date: '%Y' }}{% endcapture %}
   {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}
-      <a href="#" rel="permalink">{{ year }}</a>
+    <h2 id="{{ year | slugify }}" class="archive__subtitle">{}
+      <a href="#">{{ year }}</a>
     </h2>
     {% capture written_year %}{{ year }}{% endcapture %}
   {% endif %}
