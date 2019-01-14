@@ -23,51 +23,40 @@ sidebar:
 <h2>Lab Members</h2> <br>
 
 <div class="grid__wrapper">
-    {% for author in site.data.authors %}
-        <div class="grid__item">
-          <div style="max-height: 240px" class="archive__item-teaser">
-              <a href="{{author.uri}}">
-                <img src=
-                  {% if author.avatar contains "://" %}
-                    "{{ author.avatar }}"
-                  {% else %}
-                    "{{ author.avatar | absolute_url }}"
-                  {% endif %}
-                   alt="{{ author.name }}">
-              </a>
-          </div>
-            <h2 class="archive__item-title" itemprop="headline">
-              {% if author.name %}
-                <a href="{{ author.uri }}">{{ author.name }}</a> <a href="{{ author.uri | absolute_url }}" rel="permalink" target="_blank"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
-              {% else %}
-                <a href="{{ author.uri | absolute_url }}" rel="permalink" target="_blank">{{ author.name }}</a>
-              {% endif %}
-            </h2>
-            {% if author.bio %}<p class="archive__item-excerpt" itemprop="description">{{ author.bio | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
-      </div>
-    {% endfor %}
+  {% for author in site.data.authors %}
+      <div class="grid__item">
+        <div style="max-height: 240px" class="archive__item-teaser">
+            <a href="{{author.uri}}">
+              <img src=
+                {% if author.avatar contains "://" %}
+                  "{{ author.avatar }}"
+                {% else %}
+                  "{{ author.avatar | absolute_url }}"
+                {% endif %}
+                 alt="{{ author.name }}">
+            </a>
+        </div>
+          <h2 class="archive__item-title" itemprop="headline">
+            {% if author.name %}
+              <a href="{{ author.uri }}">{{ author.name }}</a> <a href="{{ author.uri | absolute_url }}" rel="permalink" target="_blank"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+            {% else %}
+              <a href="{{ author.uri | absolute_url }}" rel="permalink" target="_blank">{{ author.name }}</a>
+            {% endif %}
+          </h2>
+          {% if author.bio %}<p class="archive__item-excerpt" itemprop="description">{{ author.bio | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
+    </div>
+  {% endfor %}
 
 </div>
 
 <!-- <p style="padding-bottom: 120ex;"></p> -->
 
-<div class="grid__wrapper">
+<div class="archive">
+  <h2>Lab Alumni</h2>
 
-  <div class="grid__item">
-    <div style="max-height: 240px" class="archive__item-teaser">
-    </div>
-      <h2 class="archive__item-title" itemprop="headline">
-      </h2>
-    </div>
-
-    <h2>Lab Alumni</h2>
-
-    <p>
-      <b> <font size="4"> <a href="https://sites.google.com/site/chiangchaokai/"> <font color="#9D2235">Chao-Kai Chiang</font> </a> </font> </b> <br style="line-height:1px;"> <font size="3"> Postdoc, 2016 - 2018 </font> <br style="line-height:1px;">
-      <b> <font size="4"> <a href="http://www-scf.usc.edu/~weilunc/"> <font color="#9D2235">Wei-Lun (Harry) Chao</font> </a> </font> </b> <br style="line-height:1px;"> <font size="3"> PhD, 2013 - 2018 <b>&nbsp;→&nbsp;</b> Postdoc @ Cornell </font> <br style="line-height:1px;">
-      <b> <font size="4"> <a href="http://www-scf.usc.edu/~schangpi/"> <font color="#9D2235">Soravit (Beer) Changpinyo</font> </a> </font> </b> <br style="line-height:1px;"> <font size="3"> PhD, 2012 - 2018 <b>&nbsp;→&nbsp;</b> Software Engineer @ Google AI </font>
-    </p>
-
-
-
+  <p>
+    <b> <font size="4"> <a href="https://sites.google.com/site/chiangchaokai/"> <font color="#9D2235">Chao-Kai Chiang</font> </a> </font> </b> <br style="line-height:1px;"> <font size="3"> Postdoc, 2016 - 2018 </font> <br style="line-height:1px;">
+    <b> <font size="4"> <a href="http://www-scf.usc.edu/~weilunc/"> <font color="#9D2235">Wei-Lun (Harry) Chao</font> </a> </font> </b> <br style="line-height:1px;"> <font size="3"> PhD, 2013 - 2018 <b>&nbsp;→&nbsp;</b> Postdoc @ Cornell </font> <br style="line-height:1px;">
+    <b> <font size="4"> <a href="http://www-scf.usc.edu/~schangpi/"> <font color="#9D2235">Soravit (Beer) Changpinyo</font> </a> </font> </b> <br style="line-height:1px;"> <font size="3"> PhD, 2012 - 2018 <b>&nbsp;→&nbsp;</b> Software Engineer @ Google AI </font>
+  </p>
 </div>
