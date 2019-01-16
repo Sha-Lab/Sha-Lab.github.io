@@ -50,6 +50,13 @@
   avatar: "/assets/imgs/people/michiel_de_jong.jpg"
   twitter: "MsdJ29"
 
+- JP Francis:
+  name: "JP Francis"
+  uri: "https://www.linkedin.com/in/john-paul-francis-4b9260a6/"
+  bio: "PhD Student"
+  avatar: "/assets/imgs/people/jp_francis.jpg"
+  twitter: ""
+
 - Chin-Cheng Hsu:
   name: "Chin-Cheng Hsu"
   uri: "http://jeremycchsu.github.io/"
