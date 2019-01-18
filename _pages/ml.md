@@ -1,7 +1,7 @@
 ---
 layout: single
-title: Research - Statistical Machine Learning
-permalink: /research/ml_rl/
+title: Research - ML
+permalink: /research/ml/
 
 feature_row1:
   - image_path: /assets/imgs/research/ml_rl/zero1_v1.png
