@@ -1,6 +1,6 @@
 ---
 layout: single
-title: Research - ML/RL
+title: Research - Statistical Machine Learning
 permalink: /research/ml_rl/
 
 feature_row1:
