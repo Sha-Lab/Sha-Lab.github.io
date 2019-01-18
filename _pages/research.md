@@ -5,7 +5,7 @@ permalink: /research/
 
 
 feature_row1:
-  - image_path: /assets/imgs/research/ml_rl/zero1_v1.png
+  - image_path: /assets/imgs/research/ml/zero1_v1.png
     title: "Statistical Machine Learning"
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam sem ut tortor finibus, sit amet posuere massa ultricies. Nullam id neque ut tellus viverra luctus. Aliquam fringilla sollicitudin iaculis. Aenean volutpat laoreet mauris id ullamcorper. Praesent nunc justo, molestie nec porta mattis, pellentesque vitae enim. Nunc vestibulum mauris vitae bibendum finibus. Phasellus facilisis finibus massa, non viverra eros venenatis non.'
     url: "/research/ml"
