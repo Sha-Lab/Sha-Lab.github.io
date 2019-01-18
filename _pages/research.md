@@ -7,25 +7,21 @@ permalink: /research/
 feature_row1:
   - image_path: /assets/imgs/research/ml_rl/zero1_v1.png
     title: "Statistical Machine Learning"
-    excerpt: 'The ability to transfer in reinforcement learning is key towards building an agent of general artificial intelligence. In this paper, we consider the problem of learning to simultaneously transfer across both environments (ENV) and tasks (TASK), probably more importantly, by learning from only sparse (ENV, TASK) pairs out of all the possible combinations. We propose a novel compositional neural network architecture which depicts a meta rule for composing policies from environment and task embeddings.'
+    excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam sem ut tortor finibus, sit amet posuere massa ultricies. Nullam id neque ut tellus viverra luctus. Aliquam fringilla sollicitudin iaculis. Aenean volutpat laoreet mauris id ullamcorper. Praesent nunc justo, molestie nec porta mattis, pellentesque vitae enim. Nunc vestibulum mauris vitae bibendum finibus. Phasellus facilisis finibus massa, non viverra eros venenatis non.'
     url: "/research/ml_rl"
 
 feature_row2:
   - image_path: /assets/imgs/research/vision/hu_arxiv2016.png
     title: "Computer Vision"
-    excerpt: ''
-    url: "https://arxiv.org/abs/1810.07212"
-    btn_label: "Paper"
-    btn_class: "btn--inverse"
+    excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam sem ut tortor finibus, sit amet posuere massa ultricies. Nullam id neque ut tellus viverra luctus. Aliquam fringilla sollicitudin iaculis. Aenean volutpat laoreet mauris id ullamcorper. Praesent nunc justo, molestie nec porta mattis, pellentesque vitae enim. Nunc vestibulum mauris vitae bibendum finibus. Phasellus facilisis finibus massa, non viverra eros venenatis non.'
+    url: "/research/vision"
 
 
 feature_row3:
   - image_path: /assets/imgs/research/nlp/zemlyanskiy_conll2018.png
     title: "Natural Language Processing"
-    excerpt: ''
-    url: "https://arxiv.org/abs/1810.07212"
-    btn_label: "Paper"
-    btn_class: "btn--inverse"
+    excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam sem ut tortor finibus, sit amet posuere massa ultricies. Nullam id neque ut tellus viverra luctus. Aliquam fringilla sollicitudin iaculis. Aenean volutpat laoreet mauris id ullamcorper. Praesent nunc justo, molestie nec porta mattis, pellentesque vitae enim. Nunc vestibulum mauris vitae bibendum finibus. Phasellus facilisis finibus massa, non viverra eros venenatis non.'
+    url: "/research/nlp"
 
 ---
 
