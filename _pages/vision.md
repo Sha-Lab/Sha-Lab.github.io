@@ -1,26 +1,31 @@
 ---
 layout: single
-title: Research - Vision
+title: Research - Computer Vision
 permalink: /research/vision/
 
-feature_row2:
-  - image_path: http://hexianghu.com/images/projects/2018/hexiang2018synpo.png
+feature_row1:
+  - image_path: /assets/imgs/research/ml_rl/zero1_v1.png
     title: "Vision and Language"
-    excerpt: 'The ability to transfer in reinforcement learning is key towards building an agent of general artificial intelligence. In this paper, we consider the problem of learning to simultaneously transfer across both environments (ENV) and tasks (TASK), probably more importantly, by learning from only sparse (ENV, TASK) pairs out of all the possible combinations. We propose a novel compositional neural network architecture which depicts a meta rule for composing policies from environment and task embeddings.'
-    url: "https://sites.google.com/view/nips2018-synpo"
-    btn_label: "Project Page"
-    btn_class: "btn--inverse"
+    excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam sem ut tortor finibus, sit amet posuere massa ultricies. Nullam id neque ut tellus viverra luctus. Aliquam fringilla sollicitudin iaculis. Aenean volutpat laoreet mauris id ullamcorper. Praesent nunc justo, molestie nec porta mattis, pellentesque vitae enim. Nunc vestibulum mauris vitae bibendum finibus. Phasellus facilisis finibus massa, non viverra eros venenatis non.'
+    url: ""
+
+feature_row2:
+  - image_path: /assets/imgs/research/vision/hu_arxiv2016.png
+    title: "Video Summarization"
+    excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam sem ut tortor finibus, sit amet posuere massa ultricies. Nullam id neque ut tellus viverra luctus. Aliquam fringilla sollicitudin iaculis. Aenean volutpat laoreet mauris id ullamcorper. Praesent nunc justo, molestie nec porta mattis, pellentesque vitae enim. Nunc vestibulum mauris vitae bibendum finibus. Phasellus facilisis finibus massa, non viverra eros venenatis non.'
+    url: ""
+
+
+feature_row3:
+  - image_path: /assets/imgs/research/nlp/zemlyanskiy_conll2018.png
+    title: "Semantic Segmentation"
+    excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquam sem ut tortor finibus, sit amet posuere massa ultricies. Nullam id neque ut tellus viverra luctus. Aliquam fringilla sollicitudin iaculis. Aenean volutpat laoreet mauris id ullamcorper. Praesent nunc justo, molestie nec porta mattis, pellentesque vitae enim. Nunc vestibulum mauris vitae bibendum finibus. Phasellus facilisis finibus massa, non viverra eros venenatis non.'
+    url: ""
 
 ---
 
-1. Vision and Language
+{% include feature_row id="feature_row1" type="left" %}
 
-	
+{% include feature_row id="feature_row2" type="right" %}
 
-
-
-2. Video Summarization
-3. Image Segmentation
-4. Object Recognition
-
-{% include feature_row id="feature_row2" type="left" %}
+{% include feature_row id="feature_row3" type="left" %}
